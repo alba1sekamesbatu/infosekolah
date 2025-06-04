@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Admin - SINDE SDN 1 ALAS BAYUR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #2c3e50, #3498db);
+      margin: 2;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-box {
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #2c3e50;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 20px;
+      border: none;
+      background-color: #2980b9;
+      color: white;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #1abc9c;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto 20px;
+      height: 60px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 12px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <img src="logo-sekolah.png" alt="Logo Sekolah" class="logo">
+    <h2>Login Admin</h2>
+    <form action="dashboard.html" method="post">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" value="admin" placeholder="Masukkan username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" value="admin123" placeholder="Masukkan password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <div class="footer">© 2025 SINDE SDN 1 ALAS BAYUR</div>
+  </div>
+
+</body>
+</html>
